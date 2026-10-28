@@ -9,6 +9,9 @@ I build and review software, with a focus on **evaluating AI systems and making 
 - **[einsteins-jump](https://github.com/dnarsh/einsteins-jump)**: a pre-registered notebook that tried to test whether AI judges can tell novelty from recombination. It ended with an honest negative result, which I published.
 - **[racefree-filelock](https://github.com/dnarsh/racefree-filelock)** and **[evergreen-watchdog](https://github.com/dnarsh/evergreen-watchdog)**: a cross-process lock that fixes a check-then-write race, and a supervisor for long-running jobs.
 
+- **[GuardBench](https://github.com/dnarsh/GuardBench)** (in progress): a judge-free benchmark that plants security-guard defects (fail-open checks, removed validation, secret leaks, races) in small apps and measures whether AI code reviewers catch them. The design is pre-registered with a tagged commit. Synthetic bugs and small samples are the stated limits.
+- **[fundamentals-12wk](https://github.com/dnarsh/fundamentals-12wk)** (just started): hand-written algorithms and statistics exercises with tests, done in public. The scaffold and tests are agent-written; the solutions are mine, and none are written yet.
+
 ## Team work
 
 I contribute to an open team repo, [OctoKon/Splyce](https://github.com/OctoKon/Splyce): 21 pull requests authored (18 merged) and 22 formal reviews, mostly security and fail-closed fixes. Counts as of October 2026.
